@@ -88,4 +88,12 @@ Hello, welcome to C#!
 - Method Overriding: Derived classes provide specific implementations.
 - String Interpolation: Combine multiple strings into one output.
 
+ Key Points about Abstract Classes
+ - Declared using the abstract keyword
+ - Cannot be instantiated: Shape s = new Shape(); // ❌
+ - Can include both abstract and non-abstract members
+ - Derived classes must implement abstract members
+ - Supports constructors and fields
+   
+
 
