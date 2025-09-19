@@ -12,3 +12,16 @@ The program defines:
 - **`GreetingProvider2`** – Returns `"welcome to C#"`.
 
 In the `Main()` method, two provider instances are created, and their messages are combined to produce:
+
+Hello, welcome to C#!
+
+
+---
+
+## 🛠 How It Works
+1. The abstract class enforces that all derived classes implement the `GetMessage()` method.
+2. `GreetingProvider1` and `GreetingProvider2` each return different strings.
+3. These strings are concatenated using string interpolation:
+   ```csharp
+   string combinedMessage = $"{provider1.GetMessage()}, {provider2.GetMessage()}";
+
