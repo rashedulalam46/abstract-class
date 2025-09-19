@@ -8,7 +8,7 @@ It also shows how to combine output from multiple implementations.
 ## 📋 Description
 The program defines:
 - **`MessageProvider`** – An abstract class declaring the `GetMessage()` method.
-- **`GreetingProvider1`** – Returns `"Hello,"`.
+- **`GreetingProvider1`** – Returns `"Hello"`.
 - **`GreetingProvider2`** – Returns `"welcome to C#"`.
 - **`Main Program`** – Returns `"Hello, welcome to C#"`.
   
@@ -32,7 +32,6 @@ Hello, welcome to C#
 ## MessageProvider
 
 ```csharp
-using System;
 
 abstract class MessageProvider
 {
@@ -41,7 +40,7 @@ abstract class MessageProvider
 }
 ```
 
-## First provider: returns "Hello,"
+## First provider: returns "Hello"
 
 ```csharp
 class GreetingProvider1 : MessageProvider
@@ -63,5 +62,18 @@ class GreetingProvider2 : MessageProvider
         return "welcome to C#";
     }
 }
+```
+
+## Main Program: returns Hello, welcome to C#
+
+```csharp
+MessageProvider provider1 = new GreetingProvider1();
+MessageProvider provider2 = new GreetingProvider2();
+
+// Combine their messages with a comma and space
+string combinedMessage = $"{provider1.GetMessage()}, {provider2.GetMessage()}";
+
+Console.WriteLine(combinedMessage);
+// ✅ Output: Hello, welcome to C#
 ```
 
