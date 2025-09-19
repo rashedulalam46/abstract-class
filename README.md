@@ -35,7 +35,7 @@ Hello, welcome to C#
 
 abstract class MessageProvider
 {
-    // ✅ Abstract method must use the abstract keyword and no body
+    // Abstract method must use the abstract keyword and no body
     public abstract string GetMessage();
 }
 ```
@@ -74,6 +74,18 @@ MessageProvider provider2 = new GreetingProvider2();
 string combinedMessage = $"{provider1.GetMessage()}, {provider2.GetMessage()}";
 
 Console.WriteLine(combinedMessage);
-// ✅ Output: Hello, welcome to C#
+// Output: Hello, welcome to C#
 ```
+
+🖥 Expected Output
+```csharp
+Hello, welcome to C#!
+```
+
+📚 Key Concepts Demonstrated
+
+- Abstract Classes: Define method signatures without implementation.
+- Method Overriding: Derived classes provide specific implementations.
+- String Interpolation: Combine multiple strings into one output.
+
 
