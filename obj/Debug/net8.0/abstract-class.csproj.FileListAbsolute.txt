@@ -1,0 +1,15 @@
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/bin/Debug/net8.0/abstract-class
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/bin/Debug/net8.0/abstract-class.deps.json
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/bin/Debug/net8.0/abstract-class.runtimeconfig.json
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/bin/Debug/net8.0/abstract-class.dll
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/bin/Debug/net8.0/abstract-class.pdb
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.AssemblyInfoInputs.cache
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.AssemblyInfo.cs
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.csproj.CoreCompileInputs.cache
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.sourcelink.json
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.dll
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/refint/abstract-class.dll
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.pdb
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/abstract-class.genruntimeconfig.cache
+/Users/Rashed/My Files/Projects/Github/abstract-class/abstract-class/obj/Debug/net8.0/ref/abstract-class.dll
