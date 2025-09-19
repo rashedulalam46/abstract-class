@@ -9,12 +9,12 @@ It also shows how to combine output from multiple implementations.
 The program defines:
 - **`MessageProvider`** – An abstract class declaring the `GetMessage()` method.
 - **`GreetingProvider1`** – Returns `"Hello,"`.
-- **`GreetingProvider2`** – Returns `"welcome to C#!"`.
-- **`Main Program`** – Returns `"Hello, welcome to C#!"`.
+- **`GreetingProvider2`** – Returns `"welcome to C#"`.
+- **`Main Program`** – Returns `"Hello, welcome to C#"`.
   
 In the `Main()` method, two provider instances are created, and their messages are combined to produce:
 
-Hello, welcome to C#!
+Hello, welcome to C#
 
 
 ---
@@ -23,6 +23,45 @@ Hello, welcome to C#!
 1. The abstract class enforces that all derived classes implement the `GetMessage()` method.
 2. `GreetingProvider1` and `GreetingProvider2` each return different strings.
 3. These strings are concatenated using string interpolation:
-   ```csharp
+```csharp
    string combinedMessage = $"{provider1.GetMessage()}, {provider2.GetMessage()}";
+```
+
+---
+
+## MessageProvider
+
+```csharp
+using System;
+
+abstract class MessageProvider
+{
+    // ✅ Abstract method must use the abstract keyword and no body
+    public abstract string GetMessage();
+}
+```
+
+## First provider: returns "Hello,"
+
+```csharp
+class GreetingProvider1 : MessageProvider
+{
+    public override string GetMessage()
+    {
+        return "Hello";
+    }
+}
+```
+
+## Second provider: returns "welcome to C#"
+
+```csharp
+class GreetingProvider2 : MessageProvider
+{
+    public override string GetMessage()
+    {
+        return "welcome to C#";
+    }
+}
+```
 
