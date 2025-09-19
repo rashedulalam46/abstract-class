@@ -8,9 +8,10 @@ It also shows how to combine output from multiple implementations.
 ## 📋 Description
 The program defines:
 - **`MessageProvider`** – An abstract class declaring the `GetMessage()` method.
-- **`GreetingProvider1`** – Returns `"Hello"`.
-- **`GreetingProvider2`** – Returns `"welcome to C#"`.
-
+- **`GreetingProvider1`** – Returns `"Hello,"`.
+- **`GreetingProvider2`** – Returns `"welcome to C#!"`.
+- **`Main Program`** – Returns `"Hello, welcome to C#!"`.
+  
 In the `Main()` method, two provider instances are created, and their messages are combined to produce:
 
 Hello, welcome to C#!
