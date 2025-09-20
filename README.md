@@ -90,7 +90,7 @@ Hello, welcome to C#!
 
  Key Points about Abstract Classes
  - Declared using the abstract keyword
- - Cannot be instantiated: Shape s = new Shape(); // ❌
+ - Cannot be instantiated: MessageProvider s = new MessageProvider(); // ❌
  - Can include both abstract and non-abstract members
  - Derived classes must implement abstract members
  - Supports constructors and fields
